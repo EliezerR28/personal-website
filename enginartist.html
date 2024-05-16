@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jordan Rosenfeld - Enginartist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #b30000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #800000;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff4d4d;
+            color: black;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .portfolio, .contact {
+            margin: 20px 0;
+        }
+        h2 {
+            color: #b30000;
+        }
+        .portfolio img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #800000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #b30000;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #800000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jordan Rosenfeld - Enginartist</h1>
+        <p>Masters in Biomedical Engineering | Bachelors in Mechanical Engineering with a Minor in Robotics</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hello! I'm Jordan Rosenfeld, an "Enginartist" who combines engineering expertise with artistic creativity. With a Masters in Biomedical Engineering and a Bachelors in Mechanical Engineering with a minor in Robotics, I have a unique perspective that blends technical precision with artistic expression.</p>
+            <p>My passion lies in creating custom artwork that incorporates engineering principles and sketch designs, bringing a unique fusion of art and science to life.</p>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <p>Here are some examples of my custom artwork:</p>
+            <img src="portfolio-image1.jpg" alt="Artwork 1">
+            <img src="portfolio-image2.jpg" alt="Artwork 2">
+            <img src="portfolio-image3.jpg" alt="Artwork 3">
+            <!-- Add more images as needed -->
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you're interested in my custom artwork or have any inquiries, please reach out to me through the form below:</p>
+            <form class="contact-form" action="https://example.com/contact" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Jordan Rosenfeld. All rights reserved.</p>
+    </footer>
+</body>
+</html>
